@@ -21,14 +21,6 @@ const AuthStack = createStackNavigator({
   initialRouteName: 'Login',
 })
 
-// const AppInterface = createBottomTabNavigator({
-//     Profile: { screen: ProfileScreen },
-//     Transfer: { screen: TransferScreen},
-//     Scan: { screen: QrScreen}
-//   },
-// {
-//   initialRouteName: 'Transfer',
-// })
 const AppInterface = createBottomTabNavigator({
     Profile: {
             screen:createStackNavigator({
